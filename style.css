@@ -161,3 +161,140 @@ ul {
     text-align: center;
 }
 
+/* Order Section */
+
+.order {
+    background: #312f30;
+    padding: 60px 0;
+}
+
+.order .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-right: 90px;
+}
+
+.order__img {
+    max-width: 470px;
+}
+
+.order__text {
+    max-width: 360px;
+}
+
+.order__title {
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.order__descr {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.order__price {
+    font-weight: 500;
+    font-size: 20px;
+    color: #f6762c;
+}
+
+.order__price--old {
+    font-size: 16px;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.order__price + .order__price {
+    margin-left: 3px;
+}
+
+.order .btn {
+    margin-top: 10px;
+}
+
+/* Product section */
+
+.product {
+    padding: 150px 0;
+}
+
+.product .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product__card {
+    min-height: 300px;
+    width: 540px;
+    padding: 60px 25px 60px 290px;
+}
+
+.product__card:nth-child(even) {
+    padding-left: 25px;
+    padding-right: 290px;
+}
+
+.product__title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+
+.product__descr {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.product__price {
+    font-weight: 500;
+    font-size: 16px;
+    color: #f6762c;
+}
+
+.product__price + .product__price {
+    margin-left: 5px;
+}
+
+.product__price--old {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.product .btn {
+    margin-top: 10px;
+}
+
+.btn--small {
+    height: 40px;
+    width: 140px;
+    font-size: 12px;
+}
+
+.card-queen {
+    background: url('./images/product-1.jpg') center center / cover no-repeat;
+    
+}
+
+.card-hut {
+    background: url('./images/product-2.jpg') center center / cover no-repeat;
+}
+
+.card-king {
+    background: url('./images/product-3.jpg') center center / cover no-repeat;
+}
+
+.card-papa {
+    background: url('./images/product-4.jpg') center center / cover no-repeat;
+}
